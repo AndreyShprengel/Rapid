@@ -1,0 +1,200 @@
+﻿<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <title id=" mytitle">{{name}}</title>
+
+    <!-- Bootstrap -->
+    <link href="../static/bootstrap.min.css" rel="stylesheet">
+
+
+    <body style="background-color: #686869">
+        <nav class="navbar" role="navigation">
+            <div class="container-fluid" style="background-color: #0000FF">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><span class="label" style="background-color: #C0C0C0">{{name}}</span></a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li style="background-color: #C0C0C0"><a href="#">Home</a></li>
+                        <li><a href="#">Projects</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="mailto:ashprengel@gmail.com?Subject=Hello" target="_top">Email Me</a></li>
+                                <li><a href="#">LinkedIn</a></li>
+                                <li><a href="#">267-237-1919</a></li>
+                                <li><a href="#">1582 venice lane </a></li>
+                            </ul>
+                        </li>
+                        </ui>
+
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+        <div id="bigButton" class="col-md-7">
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class=""></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2" class=""></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item">
+                        <img data-src="holder.js/900x500/auto/#666:#444/text:First slide" src="https://scontent-b-dfw.xx.fbcdn.net/hphotos-prn1/t1/935435_458139177598616_1433547517_n.jpg" alt="...">
+
+                    </div>
+                    <div class="item active">
+                        <div class="container">
+                            <img style="height:400px;"  src="https://1b1fd59d-a-62cb3a1a-s-sites.googlegroups.com/site/ashprengel/about/582610_10151045366504537_1241482884_n.jpg?attachauth=ANoY7crLRO3cFp8PldSjAvdPUl8-IlV4i1Vp4kwD6yJgdn3w6EHunWQTwr21IlRRUUYFMGvQh-00LXfnWj9SSvi_pFaXJQqz3nzJjmNUquP2v44BI5wxJOh61WTxc_VQbxaixLNENSlXlNJNDfE8Q1m-vbRouCihox3i58wFQIIAuVtD8FW192ZJbgtiE92MtuLK_UsZLpH8EDAS3XfA_KytCA5vfJfNaktUXSh3qUrWltKXtMFrP5hkCSLSAesGaZjD-AKqltwt&attredirects=0" alt=".."></div>
+                        </div>
+
+                    <div class="item">
+                        <img src="https://scontent-b-dfw.xx.fbcdn.net/hphotos-prn2/t1/734781_4651954011022_1591621492_n.jpg" style=" height:400px"></div>
+                </div>
+                <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+            <button type="button" id="myb">
+                Popover ex
+            </button>
+        </div>
+        <div class="col-md-4">
+           
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h2 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                            About Me
+                        </a>
+                    </h2>
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse in">
+                    <div class="panel-body">
+                        <p>
+                            I was born in Kiev Ukraine but shortly moved to the United States with my family.  I attended a magnet school in center city Philadelphia for both middle and high school and found my passion for math early on. I would often find myself working on problems or trying to solve theroems that were unrelated to my classwork.  At the same time i was always building things or tearing them apart to see how they worked. The combinaion of those things along with some coding expereince early on has led to devolop a passion for AI and robotics, and my curiasity  to see how things work took to the form of Cognitive Science studies were i hope to learn how our brain functions.
+                            I believe that as engineers and scientest we have the ability to change the world for a better tommorow. It is this vision that I hope to take with me into the professional world. With things like neural prostheics and Brain Computer Interfaces i hope to combine all three of the subject im passionate about to create change in peoples lives and the world
+                            Growing up in the city of Philadelphia served as an insight, helping me understand that the city life is not for me. Through that insight I was able to find that the mountains contain an immense sense of freedom and adventure that I can't be without. When I am not studying or finding domr fun code to write i find myself either skiing or climbing
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+            <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+                Check out my resume
+            </button>
+            <div class="btn-group" data-toggle="tool-tip" title="Links">
+                
+                <div class="dropdown">
+                    <button class=" btn-lg btn" data-toggle="dropdown">Links to favorit sites</button>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                        <li> <a href="unofficialnetworks.com" data-toggle="tool-tip" title="SKIING!!">unofficialnetworks.com</a></li>
+                        <li><a href="avalanch.state.co.gov"> CAIC</a></li>
+                    </ul>
+                </div>
+                
+            </div>
+         
+
+            <div id="demo" class="collapse in">...</div>
+        </div>
+
+
+
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title" id="myModalLabel">Resume</h4>
+                    </div>
+                    <div class="modal-body">
+                       
+                        Andrey Shprengel
+
+                        1582 Venice Lane | Longmont, CO  |  267-237-1919  |  andrey.shprengel@colorado.edu
+
+                        Objective
+                        Seeking a summer internship in a research laboratory or software R&D where I may apply my education and technical skills to benefit my employer while also gaining invaluable experience.
+                        
+                           <h4> Education </h4>
+                        <p>
+                            University of Colorado – Boulder, CO
+                            Expected Graduation: May 2015 | Bachelor of Science in Computer Science
+                            | Minor  in Mathematics
+                            | Certificate in Cognitive Science
+                            Relevant Courses: Computer Systems, C++ Data Structures, Algorithms, Artificial Intelligence, Programming Language Principles
+                            Cumulative GPA: 3.6
+                            J.R. Masterman High School - Philadelphia, PA
+                            Graduation: May 2010
+                            GPA: 4.0
+                        </p>
+                        <h4>Work Experience</h4>
+                        <p>
+                            St Julien Hotel and Spa                                                                                  January 2011 – Present
+                            Bartender
+                            Working in the restaurant industry, behind the bar in particular has immensely helped develop my communication and interpersonal skills. Due to starting off as a busser and progressing to bartending I understand what it means to work hard and move up in a company. This is a full time position that I work in addition to being a full time student.
+
+                            Go Vertical Rock Gym     							                                                     November 2007- June 2010
+                            Route Setter/ Instructor
+                            Responsible for self directed work. Requirements including filling  quotas for routes set by deadlines, managing safety and quality.
+                        </p>
+                        <h4> Technical Skills</h4>
+                        <p>
+                            Programming and Software Engineering
+                            Languages: C/C++, Python, Mathematica, Scala
+                            Software: MS Visual Studio,  GDB debugger
+                            Systems: UNIX/Linux, Windows XP/2K3/7
+                        </p>
+                    
+
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://code.jquery.com/jquery.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="../static/bootstrap.js"></script>
+        <script>
+			var cssobj = {
+				"color" : "#FFFF00",
+				"height": "100 px"
+				
+				};
+				$('body').css("background-color", cssobj.color)
+				
+            $(document).ready(function () {
+                $('#myb').popover(
+                {
+                    trigger: 'hover',
+                    html: true,
+                    placement: 'right',
+                    content: 'THis button does stuff'
+                });
+            });
+
+        </script>
+    </body>
+</html>
